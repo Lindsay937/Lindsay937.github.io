@@ -2,10 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
   <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A geeker blog." />
+  <meta name="keywords" content="hexo,theme,icer,ggice" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/index.html">
@@ -14,244 +18,242 @@
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
+
+  <link rel='stylesheet' href='//cdn.staticfile.org/nprogress/0.2.0/nprogress.css'/>
+  <link rel="stylesheet" href="//cdn.staticfile.org/highlight.js/9.15.10/styles/github-gist.min.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_405585_yuudmyqpo3q.css">
+  <script src='//cdn.staticfile.org/nprogress/0.2.0/nprogress.min.js'></script>
+  <!-- <script>try{Typekit.load({ async: false });}catch(e){}</script> -->
   
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+<link rel="stylesheet" href="/style.css">
 
   
-  
-<link rel="stylesheet" href="/css/style.css">
 
   
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
 
+<!-- baidu Analytics -->
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?403460ed7637fb6c4a9e09a74e662ca0";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
   
+<!-- End baidu Analytics -->
+
+
 <meta name="generator" content="Hexo 5.3.0"></head>
 
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+  
+  <script>NProgress.start();</script>
+  
+  <div id="site-wrapper">
+    
+    <header class="header">
+  <div class="header-wrapper">
+    <a href="/">
+      <img src="/image/logo.jpg" class="logo"/>
+      <!-- <span class="site-desc">
+        
+      </span> -->
+    </a>
+    <div class="social-wrapper">
       
+        
+          <a href="https://twitter.com/iggice" class="social twitter" target="_blank" rel="external">
+            <span class="iconfont icon-twitter"></span>
+          </a>
+          
+          <a href="https://github.com/ggice" class="social github" target="_blank" rel="external">
+            <span class="iconfont icon-github"></span>
+          </a>
+          
+          <a href="http://ggice.lofter.com/" class="social lofter" target="_blank" rel="external">
+            <span class="iconfont icon-lofter"></span>
+          </a>
+          
+          <a href="https://dribbble.com/ggice" class="social dribbble" target="_blank" rel="external">
+            <span class="iconfont icon-dribbble"></span>
+          </a>
+          
+          <a href="mailto:i@ice.gs" class="social email" target="_blank" rel="external">
+            <span class="iconfont icon-email"></span>
+          </a>
+          
+          <a href="/atom.xml" class="social rss" target="_blank" rel="external">
+            <span class="iconfont icon-rss"></span>
+          </a>
+          
+      
+      
+      <a href="#" class="social search-do" target="_blank" rel="external">
+        <span class="iconfont icon-search"></span>
+      </a>
+            
+      <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><input type="hidden" name="sitesearch" value="http://example.com"></form> -->
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+    <div class="search-wrap">
+      <div class="search-content animated fade-in">
+        <p class="search-input">
+          <span class="iconfont icon-search"></span>
+          <input tabindex="1">
+        </p>
+        <ul class="search-result">
+            
+        </ul>
       </div>
     </div>
+    <nav class="header-nav">
+      
+        <a href="/" class="archives">
+          home
+        </a>
+        
+        <a href="/tags/web-development/" class="archives">
+          web development
+        </a>
+        
+        <a href="/tags/soft/" class="archives">
+          soft
+        </a>
+        
+        <a href="/tags/os/" class="archives">
+          os
+        </a>
+        
+        <a href="/archives" class="archives">
+          archives
+        </a>
+        
+        <a href="/README/" class="archives">
+          README
+        </a>
+        
+    </nav>
   </div>
 </header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/12/29/test/" class="article-date">
-  <time class="dt-published" datetime="2020-12-29T06:31:01.000Z" itemprop="datePublished">2020-12-29</time>
-</a>
+    <script>NProgress.set(0.4);</script>
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/12/29/test/">test</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
+    <main id="main" role="main">
       
-        <h2 id="Ubuntu"><a href="#Ubuntu" class="headerlink" title="Ubuntu"></a>Ubuntu</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">(base) C:\Users\baihuo&gt;conda list wheel</span><br><span class="line">(base) C:\Users\baihuo&gt;conda list pandas</span><br><span class="line">(base) C:\Users\baihuo&gt;conda search pandas</span><br><span class="line">(base) C:\Users\baihuo&gt;conda install pandas -y</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">(base) yangxilab@yangxilab:~$ speedtest-cli</span><br><span class="line">(base) yangxilab@yangxilab:~$ cd /media/yangxilab/DiskA/Lindsay/</span><br><span class="line">(base) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ conda activate Lindsay</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ python --version</span><br><span class="line">Python 3.7.3</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ python</span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;&gt; import torch</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;&gt; torch.__version__</span></span><br><span class="line">&#x27;1.7.0&#x27;</span><br><span class="line">(base) yangxilab@yangxilab:/media/yangxilab/DiskA$ sudo apt-get install mlocate</span><br><span class="line"> 1637  git clone https://github.com/CharlesShang/DCNv2.git</span><br><span class="line"> 1638  ls</span><br><span class="line"> 1639  cd DCNv2/</span><br><span class="line"> 1640  ./make.sh</span><br><span class="line"> 1641  history</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-<h3 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh://yangxilab:******@182.92.206.112:1024</span><br></pre></td></tr></table></figure>
-<h3 id="存储历史命令"><a href="#存储历史命令" class="headerlink" title="存储历史命令"></a>存储历史命令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">(base) yangxilab@yangxilab:~$ sudo apt-get update -y</span><br><span class="line">(base) yangxilab@yangxilab:~$ sudo apt-get install -y lrzsz</span><br><span class="line">(base) yangxilab@yangxilab:~$ history &gt;&gt; test.txt</span><br><span class="line">(base) yangxilab@yangxilab:~$ sz test.txt</span><br></pre></td></tr></table></figure>
-<h3 id="查看系统信息"><a href="#查看系统信息" class="headerlink" title="查看系统信息"></a>查看系统信息</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">(base) yangxilab@yangxilab:~$ nvidia-smi</span><br><span class="line">(base) yangxilab@yangxilab:~$ cat /proc/cpuinfo | grep <span class="string">&#x27;model name&#x27;</span> |uniq</span><br><span class="line">(base) yangxilab@yangxilab:~$ free</span><br><span class="line">(base) yangxilab@yangxilab:~$ sudo apt install speedtest-cli</span><br><span class="line">(base) yangxilab@yangxilab:~$ speedtest-cli</span><br><span class="line">Testing download speed.......</span><br><span class="line">Download: 18.36 Mbit/s</span><br><span class="line">Testing upload speed.........</span><br><span class="line">Upload: 2.19 Mbit/s</span><br><span class="line">(base) yangxilab@yangxilab:~$ who</span><br></pre></td></tr></table></figure>
-<h3 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">(base) yangxilab@yangxilab:~$ cd /media/yangxilab/DiskA/</span><br><span class="line">(base) yangxilab@yangxilab:/media/yangxilab/DiskA$ mkdir Lindsay</span><br><span class="line">(base) yangxilab@yangxilab:/media/yangxilab/DiskA$ ls -l</span><br><span class="line"></span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA$ cd Lindsay/</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ ls</span><br><span class="line"></span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ sudo apt  install tree</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ tree . -L 2</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(base) yangxilab@yangxilab:/media/yangxilab/DiskA$ conda env list</span><br><span class="line">(base) yangxilab@yangxilab:/media/yangxilab/DiskA$ conda create -n Lindsay --clone llc</span><br><span class="line">(base) yangxilab@yangxilab:/media/yangxilab/DiskA$ conda env list</span><br><span class="line">(base) yangxilab@yangxilab:/media/yangxilab/DiskA$ conda activate Lindsay</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ conda list</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ conda env export &gt; environment.yaml</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ vim environment.yaml</span><br><span class="line"><span class="meta">#</span><span class="bash">change name and prefix: from <span class="string">&quot;Lindsay&quot;</span> to <span class="string">&quot;new_Lindsay&quot;</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash">and just leave several small packages, delete other packages to speed up.</span></span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ conda env create -f environment.yaml</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ conda remove -n new_Lindsay --all -y</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ conda env export &gt; environment.yaml</span><br><span class="line">(Lindsay) yangxilab@yangxilab:/media/yangxilab/DiskA/Lindsay$ conda deactivate</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(base) yangxilab@yangxilab:~$ watch -n 5 nvidia-smi</span><br></pre></td></tr></table></figure>
-<h2 id="Centos"><a href="#Centos" class="headerlink" title="Centos"></a>Centos</h2><h3 id="Speed-Test"><a href="#Speed-Test" class="headerlink" title="Speed Test"></a>Speed Test</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[root@vm424932 ~]# wget https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py</span><br><span class="line">[root@vm424932 ~]# yum -y install speedtest-cli</span><br><span class="line">[root@vm424932 ~]# chmod a+rx speedtest.py</span><br><span class="line">[root@vm424932 ~]# mv speedtest.py /usr/local/bin/speedtest-cli</span><br><span class="line">[root@vm424932 ~]# chown root:root /usr/local/bin/speedtest-cli</span><br><span class="line">[root@vm424932 ~]# speedtest-cli</span><br><span class="line">Testing download speed..........</span><br><span class="line">Download: 42.81 Mbit/s</span><br><span class="line">Testing upload speed............</span><br><span class="line">Upload: 453.11 Mbit/s</span><br></pre></td></tr></table></figure>
-<h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><h3 id="Change-Jupyter-Theme"><a href="#Change-Jupyter-Theme" class="headerlink" title="Change Jupyter Theme"></a>Change Jupyter Theme</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">conda install -c conda-forge jupyterthemes</span><br><span class="line"><span class="meta">#</span><span class="bash"> list available themes</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> onedork | grade3 | oceans16 | chesterish | monokai | solarizedl | solarizedd</span></span><br><span class="line">jt -l</span><br><span class="line"><span class="meta">#</span><span class="bash"> select theme...</span></span><br><span class="line">jt -t chesterish</span><br><span class="line"><span class="meta">#</span><span class="bash"> restore default theme</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> NOTE: Need to delete browser cache after running jt -r</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> If this doesn<span class="string">&#x27;t work, try starting a new notebook session.</span></span></span><br><span class="line">jt -r</span><br><span class="line"><span class="meta">#</span><span class="bash"> my two go-to styles</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> dark</span></span><br><span class="line">jt -t onedork -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T</span><br><span class="line"><span class="meta">#</span><span class="bash"> light</span></span><br><span class="line">jt -t grade3 -fs 95 -altp -tfs 11 -nfs 115 -cellw 88% -T</span><br></pre></td></tr></table></figure>
-<h3 id="Convert-Jupyter-To-Html"><a href="#Convert-Jupyter-To-Html" class="headerlink" title="Convert Jupyter To Html"></a>Convert Jupyter To Html</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda install pandoc</span><br><span class="line">cd &#x2F;d D:\0-jupyter\Notebook\Week 08\KerasTutorial</span><br><span class="line">jupyter nbconvert --to html &quot;Keras - Tutorial - Happy House v2.ipynb&quot;</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/12/29/test/" data-id="ckj9mh7ii0001e4pv2lb0aywd" data-title="test" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
 
 
 
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/12/29/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2020-12-29T06:27:03.299Z" itemprop="datePublished">2020-12-29</time>
-</a>
+
+
+<section class="post-list">
+	
+    <article class="post   animated fade-in-top">
+
+  <section class="post-header">
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/12/29/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
+      <h2 class="title">
+        <a href="/2020/12/29/test/">
+          test
+        </a>
+      </h2>
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/12/29/hello-world/" data-id="ckj9mh7ic0000e4pveimhcev3" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2020/12/29/test/">test</a>
-          </li>
-        
-          <li>
-            <a href="/2020/12/29/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
+      <div class="subtitle">
+          <time>
+            Dec 29, 2020
+          </time>
+          
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2020 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+  </section>
+  <section class="content">
+    Ubuntu1234(base) C:\Users\baihuo&gt;conda list wheel(base) C:\Users\baihuo&gt;conda list pandas(base) C:\Users\baihuo&gt...
+
+    <div class="readmore">
+      <a href="/2020/12/29/test/" class="iconfont icon-more">Read More</a>
     </div>
+
+  </section>
+</article>
+  
+    <article class="post   animated fade-in-top">
+
+  <section class="post-header">
+    
+      <h2 class="title">
+        <a href="/2020/12/29/hello-world/">
+          Hello World
+        </a>
+      </h2>
+      
+      <div class="subtitle">
+          <time>
+            Dec 29, 2020
+          </time>
+          
+      </div>
+  </section>
+  <section class="content">
+    Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex...
+
+    <div class="readmore">
+      <a href="/2020/12/29/hello-world/" class="iconfont icon-more">Read More</a>
+    </div>
+
+  </section>
+</article>
+  
+</section>
+
+
+      <script>NProgress.set(0.6);</script>
+    </main>
+    
+    <footer class="footer">
+  <div class="footer-wrap">
+    <div class="footer-link">
+      
+      <h3>LINKS</h3>
+      <p>
+        
+          <a href="http://1x0.xyz/" target="_blank">Tian1x0</a>
+        
+          <a href="http://www.royalmice.com/hankzhou/" target="_blank">Hankzhou</a>
+        
+          <a href="http://sjydh.me/" target="_blank">设计有点货</a>
+        
+          <a href="https://developers.google.com/web/fundamentals/" target="_blank">Web fundamentals</a>
+        
+      </p>
+      
+    </div>
+    <div class="footer-tags">
+      
+    </div>
+    <div class="footer-info">
+        <div>Theme <span class="codename"><a href="https://github.com/GGICE/hexo-icer" target="_blank">icer</a></span> designed & coded by <a href="https://ice.gs/" target="_blank">GGICE</a></div>
+        <div>Copyright &copy; 2020, <a href="/">Hexo</a>  . All rights reserved .</div>
+      </div>
   </div>
 </footer>
 
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+
+    <script>NProgress.set(0.8);</script>
     
-
-
-<script src="/js/jquery-3.4.1.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
   </div>
+
+  <script src="//cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script src="/js/main.js"></script>
+
+
+<!-- Commit -->
+
+
+
+  <script>
+    NProgress.done();
+  </script>
+  
 </body>
 </html>
